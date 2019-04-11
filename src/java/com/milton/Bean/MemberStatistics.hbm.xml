@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 27, 2018 1:02:46 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="hostel" name="com.milton.Bean.MemberStatistics" optimistic-lock="version" table="member_statistics">
+    <id name="memberId" type="java.lang.Integer">
+      <column name="member_id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="memberName" type="string">
+      <column length="100" name="member_name" not-null="true"/>
+    </property>
+    <property name="memberInvestment" type="int">
+      <column name="member_investment" not-null="true"/>
+    </property>
+    <property name="memberMeal" type="double">
+      <column name="member_meal" not-null="true" precision="22" scale="0"/>
+    </property>
+  </class>
+</hibernate-mapping>

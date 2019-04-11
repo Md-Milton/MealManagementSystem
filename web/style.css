@@ -1,0 +1,40 @@
+body{
+    margin:0 ;
+    padding:0 ;
+    font-family: sans-serif ;
+   background-color:plum ; 
+}
+table{
+    width: 80% ; 
+    border: 1px solid black;
+    margin:0 auto;
+    margin-top: 100px;
+}
+thead{
+    background: green;
+    color: white;
+    text_align: center;
+}
+tbody{
+    color: black;
+    
+    
+}
+th,td{
+    padding: 10pxl
+        text-color white;
+}
+tfoot{
+    text-align: center;
+     background: green;
+     color: white;
+}
+button{
+    color:chocolate ; 
+}
+a{
+    font-size: 100% ; 
+    color: crimson ; 
+    text-decoration: none;
+}
+
